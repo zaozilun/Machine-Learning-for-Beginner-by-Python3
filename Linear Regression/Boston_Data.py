@@ -48,5 +48,4 @@ model_data = divided(x_pre_data, y_data)
 #x_train_data.shape = (样本数，特征数)
 #y_train_data.shape= (样本数，1)
 
-
-
+#这样的话，这个数据的有关于行列的性质就出来了，行就是有多少个样本数据，列就是这个数据具有多少特征
