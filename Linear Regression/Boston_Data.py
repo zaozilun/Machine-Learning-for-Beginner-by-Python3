@@ -41,7 +41,7 @@ def divided(xdata, ydata, percent=0.1):
     return x_train_data, y_train_data, x_predict_data, y_predict_data #训练的x，y;  测试的x，y
 
 #可用于算法的数据
-model_data = divided(x_pre_data, y_data)
+global model_data = divided(x_pre_data, y_data)
 
 
 #数据结构
